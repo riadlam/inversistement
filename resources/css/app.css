@@ -1,0 +1,17 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import './dashboard-theme.css';
+@import 'tom-select/dist/css/tom-select.bootstrap5.css';
+@import 'tailwindcss';
+
+[x-cloak] { display: none !important; }
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../vendor/livewire/livewire/**/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}

@@ -1,0 +1,29 @@
+OWNER SCHEDULE TIMELINE (DEMO SCREEN) — SHORT NOTE
+==================================================
+
+WHAT THE GREEN BAR IS
+---------------------
+• Start = commencement order date (execution start).
+• End   = start + “project_duration_months” from the project owner (e.g. 24 months = 2 years).
+• The fill shows how much of THAT time has passed (linear). So after 1 year of a 2-year window → about 50%.
+
+QUARTER TICKS
+-------------
+• Every 3 months along the same window we draw a small vertical tick (Q1, Q2, …).
+• On a 2-year plan there are 8 quarter steps; each step is the same fraction of the bar (~12.5% of the full length).
+
+EVENT DOTS
+----------
+• Maturation, documents, audit entries, etc. are placed on the bar by their real dates.
+
+BIG PERCENT IN THE CORNER (“Schedule elapsed”)
+-----------------------------------------------
+• Same as the bar: calendar only. It is NOT calculated from money (AE/CP) or SPU.
+
+PHYSICAL / FINANCIAL PROGRESS
+-----------------------------
+• Not mixed into this timeline block. Physical % and money (AE/CP) appear in their own cards lower on the page.
+
+VALIDATION
+----------
+• Official checks stay with the project owner / control; this is a demo visual.

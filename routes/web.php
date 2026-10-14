@@ -24,7 +24,9 @@ use App\Http\Controllers\LocaleController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return auth()->check()
+        ? redirect()->route('dashbored.overview')
+        : redirect()->route('register');
 });
 
 Route::post('/locale', [LocaleController::class, 'update'])->name('locale.update');
